@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.tptj.demo.hg.locale.v10</id>
+    <name><![CDATA[ 国际化demo ]]></name>
+    <active>yes</active>
+    <version>1.0</version>
+    <env-version>10.0</env-version>
+    <vendor>tptj</vendor>
+    <jartime>2019-07-18</jartime>
+    <description><![CDATA[  ]]></description>
+    <change-notes><![CDATA[]]></change-notes>
+	<main-package>com.tptj.demo.hg.locale</main-package>
+    <function-recorder class="com.tptj.demo.hg.locale.Demo"/>
+    <extra-core>
+        <FunctionDefineProvider class="com.tptj.demo.hg.locale.LocaleTest" name="LocaleTest" description="国际化测试"/>
+        <LocaleFinder class="com.tptj.demo.hg.locale.Demo"/>
+    </extra-core>
+</plugin>
