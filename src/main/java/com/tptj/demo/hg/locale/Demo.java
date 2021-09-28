@@ -8,7 +8,7 @@ import com.fr.stable.fun.impl.AbstractLocaleFinder;
 public class Demo extends AbstractLocaleFinder {
     @Override
     @Focus(id="com.tptj.demo.hg.locale.v10", text="国际化demo")
-    public String find() {
+    public String find() {      
         return "com/tptj/demo/hg/locale/demo";
     }
 }
